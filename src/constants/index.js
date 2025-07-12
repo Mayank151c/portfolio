@@ -13,16 +13,14 @@ import {
   nodejs,
   mongodb,
   git,
-  figma,
   docker,
   meta,
-  starbucks,
+  hexaview,
   tesla,
   shopify,
   carrent,
   jobit,
   tripguide,
-  threejs,
 } from "../assets";
 
 export const navLinks = [
@@ -42,16 +40,16 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "React Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
+    title: "NodeJs Developer",
+    icon: backend,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
+    title: "Agentic AI Developer",
+    icon: mobile,
   },
   {
     title: "Content Creator",
@@ -97,16 +95,12 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "Postgres SQL",
+    icon: mongodb,
   },
   {
     name: "git",
     icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
   },
   {
     name: "docker",
@@ -116,11 +110,24 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Application Engineer",
+    company_name: "Hexaview Technologies",
+    icon: hexaview,
+    iconBg: "#ffffff",
+    date: "April 2023 - Present",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "Associate Application Engineer",
+    company_name: "Hexaview Technologies",
+    icon: hexaview,
+    iconBg: "#ffffff",
+    date: "Sept 2022 - April 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
