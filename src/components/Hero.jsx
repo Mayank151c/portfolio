@@ -15,8 +15,11 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} text-white`}>
             Hi, I'm <span className='text-[#915EFF]'>Mayank Choudhary</span>
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            A Fullstack S/W Developer,<br/>Cloud & AI Enthusiast
+          <p className={`${styles.heroSubText} lg:mt-10 mt-2 text-white-100`}>
+            Fullstack Software Developer,<br/>Cloud & AI Enthusiast
+          </p>
+          <p className={`${styles.heroSubText} lg:mt-5 mt-2 text-blue-100 md:text-[20px] lg:text-[22px]`}>
+            Building backend systems with purpose, precision, and power.
           </p>
         </div>
       </div>
