@@ -77,8 +77,7 @@ const Contact = () => {
           <p>📧 mayank151choudhary@gmail.com</p>
           <p>📞 +91-8109103334</p>
           <a style={{ color: "#8888ff" }} href="https://www.linkedin.com/in/mayank151">
-            <img style={{ display: "inline", marginRight: "5px", position: "relative", bottom: "2px", left: "3px" }} src="https://skillicons.dev/icons?i=linkedin" width={16} alt="Linkedin" />
-            <span style={{ marginLeft: "5px" }}>linkedin.com/in/mayank151</span>
+            🔗 linkedin.com/in/mayank151
           </a>
         </div>
         <form
