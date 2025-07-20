@@ -61,7 +61,7 @@ const ProjectCard = ({
           {techStack.map((tech, index) => (
             <p
               key={`${name}-${tech}`}
-              className={`text-[14px] text-${colors[index%colors.length]}`}
+              className={`text-[14px] ${colors[index%colors.length]} center md:text-left`}
             >
               #{tech}
             </p>
