@@ -51,11 +51,11 @@ const ProjectCard = ({
         }
 
         <h3 className='text-white font-bold text-[24px]'>{name}</h3>
-        <p className='mt-2 text-secondary text-[14px]'>{
-          description.map((desc) => <ul key={desc} className="list-disc ml-5">
-            <li>{desc}</li>
-          </ul>)
-        }</p>
+        <div className='mt-2 text-secondary text-[14px]'>
+          <ul className="list-disc ml-5">
+          {description.map((desc, i) => <li key={i}>{desc}</li>)}
+          </ul>
+        </div>
 
         <div className='mt-4 flex flex-wrap gap-2'>
           {techStack.map((tech, index) => (

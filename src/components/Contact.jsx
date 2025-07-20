@@ -69,10 +69,18 @@ const Contact = () => {
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
+        style={{ background: "#1f2038" }}
       >
         <p className={styles.sectionSubText}>Get in touch</p>
-        <h3 className={styles.sectionHeadText}>Contact.</h3>
-
+        <div className='flex flex-col gap-1'>
+          <h3 className={styles.sectionHeadText}>Contact</h3>
+          <p>📧 mayank151choudhary@gmail.com</p>
+          <p>📞 +91-8109103334</p>
+          <a style={{ color: "#8888ff" }} href="https://www.linkedin.com/in/mayank151">
+            <img style={{ display: "inline", marginRight: "5px", position: "relative", bottom: "2px", left: "3px" }} src="https://skillicons.dev/icons?i=linkedin" width={16} alt="Linkedin" />
+            <span style={{ marginLeft: "5px" }}>linkedin.com/in/mayank151</span>
+          </a>
+        </div>
         <form
           ref={formRef}
           onSubmit={handleSubmit}
@@ -115,6 +123,7 @@ const Contact = () => {
           <button
             type='submit'
             className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
+            style={{ border: "1px solid #00cea8", alignSelf: "flex-end" }}
           >
             {loading ? "Sending..." : "Send"}
           </button>

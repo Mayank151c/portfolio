@@ -15,10 +15,10 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} text-white`}>
             Hi, I'm <span className='text-[#915EFF]'>Mayank Choudhary</span>
           </h1>
-          <p className={`${styles.heroSubText} lg:mt-10 mt-2 text-white-100`}>
+          <p className={`${styles.heroSubText} lg:mt-10 md:mt-6  mt-4 text-white-100`}>
             Fullstack Software Developer,<br/>Cloud & AI Enthusiast
           </p>
-          <p className={`${styles.heroSubText} lg:mt-5 mt-2 text-blue-100 md:text-[20px] lg:text-[22px]`}>
+          <p className={`text-[#dfd9ff] font-medium lg:text-[24px] sm:text-[22px] xs:text-[18px] text-[16px] lg:leading-[50px] md:mt-16 md:mt-12 mt-10 text-blue-100`}>
             Building backend systems with purpose, precision, and power.
           </p>
         </div>

@@ -12,7 +12,7 @@ const Skills = () => {
     <>
       <div className='flex flex-row flex-wrap justify-center gap-10 mt-10 sm:mt-20'>
         {technologies.map((technology) => (
-          <div className="text-center">
+          <div className="text-center" key={technology}>
             <div className='w-12 md:w-20 md:h-28 auto' key={technology}>
               <img width={100} src={`https://skillicons.dev/icons?i=${technology}`} />
             </div>
