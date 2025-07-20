@@ -3,24 +3,7 @@ import {
   backend,
   microservice,
   web,
-  javascript,
-  typescript,
-  html,
-  css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
-  git,
-  docker,
-  meta,
   hexaview,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
 } from "../assets";
 
 export const navLinks = [
@@ -31,6 +14,14 @@ export const navLinks = [
   {
     id: "work",
     title: "Work",
+  },
+  {
+    id: "skills",
+    title: "Skills",
+  },
+  {
+    id: "projects",
+    title: "Projects",
   },
   {
     id: "contact",
@@ -58,7 +49,7 @@ const services = [
 ];
 
 const technologies = [
-    "nodejs",
+  "nodejs",
   "express",
   "react",
   "redux",
@@ -79,6 +70,8 @@ const technologies = [
   "aws",
   "postman",
   "docker",
+  "jenkins",
+  "jest",
 ];
 
 const experiences = [
@@ -114,67 +107,44 @@ const experiences = [
 
 const projects = [
   {
-    name: "Car Rent",
-    description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
+    name: "Migration to Nodejs",
+    description: [
+      "Modernized architecture monolithic to microservice which reduced latency by 20%.",
+      "Upgrade authentication from LDAP to Outh2.0 which improved system accessibility.",
+      "Implemented Redis-based rate limiter to throttle requests and protect critical endpoints with 100 RPM in a window.",
+      "Utilized Micro frontends (MFEs) to develop UI of the application.",
+      "Using Agile principals like TDD, Sprint planning, Daily standups, Regular customer feedback.",
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    techStack: ["Node.js", "React.js", "Redux", "MySQL", "S3", "SQS", "Lambda Authorizer", "JSP", "Java", "Jest"],
+    colors: ["sky-500", "lime-500", "amber-500", "cyan-500", "rose-500", "violet-500"],
+    image: false,
+    source_code_link: false,
   },
   {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
+    name: "Healthcare Portals",
+    description: [
+      "Built scalable Rest APIs with Node.js & Express using MVC design.",
+      "Developed server & serverless APIs using Express.js, AWS Serverless Framework (SLS), and AWS AppSync.",
+      "Implemented centralized logging and error tracking with Winston and CloudWatch.",
+      "Extended chat functionality across multiple applications using Dynamodb and Appsync.",
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    techStack: ["Node", "Express", "React", "Redux", "Tailwind", "Typescript", "SQL", "DynamoDb", "AWS Cognito", "Serverless"],
+    colors: ["sky-500", "lime-500", "amber-500", "cyan-500", "rose-500", "violet-500"],
+    image: false,
+    source_code_link: false,
   },
   {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
+    name: "Finance Job Portal",
+    description: [
+      "Integrated 2 authentication methods, Email/Password and SSO based Identity Provider (Google & Microsoft).",
+      "Streamlined API documentation with Swagger helps reduce onboarding time.",
+      "Role based Authorization specific permissions to administrators, advisors & providers for a smooth workflow.",
+      "Integrated Firebase chat functionality for real-time communication among 3 types of end users.",
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    techStack: ["Node", "Express", "React", "MySQL", "Firebase", "S3", "SNS", "Swagger", "Jenkins", "Docker"],
+    colors: ["sky-500", "lime-500", "amber-500", "cyan-500", "rose-500", "violet-500"],
+    image: false,
+    source_code_link: false,
   },
 ];
 
