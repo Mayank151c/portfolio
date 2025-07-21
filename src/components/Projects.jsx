@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
-import { projects } from "../constants";
+import { projects, colors } from "../constants";
 import { fadeIn } from "../utils/motion";
 
 const ProjectCard = ({
@@ -12,7 +12,6 @@ const ProjectCard = ({
   name,
   description,
   techStack,
-  colors,
   image,
   source_code_link,
 }) => {
@@ -61,7 +60,7 @@ const ProjectCard = ({
           {techStack.map((tech, index) => (
             <p
               key={`${name}-${tech}`}
-              className={`text-[14px] ${colors[index%colors.length]} center md:text-left`}
+              className={`text-[14px] ${colors[index%colors.length]}-text-gradient center md:text-left`}
             >
               #{tech}
             </p>

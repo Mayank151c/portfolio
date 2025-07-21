@@ -74,6 +74,7 @@ const technologies = [
   "jest",
 ];
 
+const colors = ["green", "blue", "pink", "pinkish", "yellow", "yellowish", "cyan", "orange"];
 const experiences = [
   {
     title: "Application Engineer",
@@ -116,7 +117,6 @@ const projects = [
       "Using Agile principals like TDD, Sprint planning, Daily standups, Regular customer feedback.",
     ],
     techStack: ["Node.js", "React.js", "Redux", "MySQL", "S3", "SQS", "Lambda Authorizer", "JSP", "Java", "Jest"],
-    colors: ["green-text-gradient", "blue-text-gradient", "pink-text-gradient", "pinkish-text-gradient", "yellow-text-gradient", "cyan-text-gradient", "orange-text-gradient"],
     image: false,
     source_code_link: false,
   },
@@ -129,7 +129,6 @@ const projects = [
       "Extended chat functionality across multiple applications using Dynamodb and Appsync.",
     ],
     techStack: ["Node", "Express", "React", "Redux", "Tailwind", "Typescript", "SQL", "DynamoDb", "AWS Cognito", "Serverless"],
-    colors: ["green-text-gradient", "blue-text-gradient", "pink-text-gradient", "pinkish-text-gradient", "yellow-text-gradient", "cyan-text-gradient", "orange-text-gradient"],
     image: false,
     source_code_link: false,
   },
@@ -142,10 +141,9 @@ const projects = [
       "Integrated Firebase chat functionality for real-time communication among 3 types of end users.",
     ],
     techStack: ["Node", "Express", "React", "MySQL", "Firebase", "S3", "SNS", "Swagger", "Jenkins", "Docker"],
-    colors: ["green-text-gradient", "blue-text-gradient", "pink-text-gradient", "pinkish-text-gradient", "yellow-text-gradient", "cyan-text-gradient", "orange-text-gradient"],
     image: false,
     source_code_link: false,
   },
 ];
 
-export { services, technologies, experiences, projects };
+export { services, technologies, colors, experiences, projects };

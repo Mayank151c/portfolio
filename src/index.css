@@ -99,7 +99,7 @@
 }
 
 .pink-text-gradient {
-  background: #ec008c; /* fallback for old browsers */
+  background: #fc6767; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to top,
     #fc6767,
@@ -131,6 +131,22 @@
 }
 
 .yellow-text-gradient {
+  background: #f7ff00; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #f7ff00,
+    #f7ff00
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #f7ff00,
+    #f7ff00
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.yellowish-text-gradient {
   background: #f7ff00; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to top,
